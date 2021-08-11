@@ -1,0 +1,169 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 15px;
+  color: #151515;
+}
+
+h1 {
+  font-family: 'Sacramento', cursive;
+  color: #301B3F;
+  padding-top: 250px;
+  margin: 0 auto 0 auto;
+  font-size: 5.625rem;
+  /*a 100% font size is = to 16px which = 1em */
+  font-weight: bold;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #301B3F;
+  font-size: 2.2rem;
+  margin: 0;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #3C415C;
+  font-size: 1.52rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+hr {
+  border: none;
+  border-bottom: dotted 5px;
+  color: gainsboro;
+  width: 6%;
+  margin: 100px auto;
+}
+
+p {
+  line-height: 2;
+}
+
+a {
+  color: #918484;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+a:hover {
+  color: #3C415C;
+}
+
+.top-container {
+  background-color: #B4A5A5;
+  margin-top: 0;
+}
+
+.middle-container {
+  background-color: white;
+  padding: 100px 0;
+}
+
+.bottom-container {
+  background-color: #B4A5A5;
+  padding: 50px 0 20px 0;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 450px;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 95px;
+  left: 1290px;
+}
+
+.drew-img {
+  max-width: 15%;
+  max-height: 15%;
+  position: relative;
+  padding-top: 5rem;
+}
+
+.design-img {
+  max-width: 20%;
+  max-height: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+.teamwork-img {
+  max-width: 20%;
+  max-height: 20%;
+  float: right;
+  margin-left: 30px;
+}
+
+.a-developer {
+  font-family: 'Montserrat', sans-serif;
+  color: #301B3F;
+  font-weight: bolder;
+  font-size: 2.5rem;
+  padding-bottom: 5rem;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 125px auto;
+  text-align: left;
+}
+
+.mountain-img {
+  position: relative;
+  top: 0;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.copywrite {
+  color: #918484;
+  font-size: 0.75rem;
+  padding-top: 35px;
+  padding-bottom: 0;
+  margin: 0;
+}
+
+.btn {
+  background: #B4A5A5;
+  background-image: -webkit-linear-gradient(top, #B4A5A5, #3C415C);
+  background-image: -moz-linear-gradient(top, #B4A5A5, #3C415C);
+  background-image: -ms-linear-gradient(top, #B4A5A5, #3C415C);
+  background-image: -o-linear-gradient(top, #B4A5A5, #3C415C);
+  background-image: linear-gradient(to bottom, #B4A5A5, #3C415C);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3C415C;
+  background-image: -webkit-linear-gradient(top, #3C415C, #B4A5A5);
+  background-image: -moz-linear-gradient(top, #3C415C, #B4A5A5);
+  background-image: -ms-linear-gradient(top, #3C415C, #B4A5A5);
+  background-image: -o-linear-gradient(top, #3C415C, #B4A5A5);
+  background-image: linear-gradient(to bottom, #3C415C, #B4A5A5);
+  text-decoration: none;
+}
